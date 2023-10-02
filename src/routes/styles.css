@@ -1,0 +1,17 @@
+:root {
+    --white-shadow: #ececec;
+    --grey: #c4c4c4;
+    --dark: #141414;
+    --white: #f0f4ec;
+    --dark-grey: #7c7c7c;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0 !important;
+}
+
+h1 {
+    margin: 0;
+}
