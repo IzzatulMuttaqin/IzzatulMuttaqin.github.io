@@ -1,9 +1,20 @@
 <div class="top-fold__container">
 	<div class="top-fold__about">
-		<h2 class="top-fold__about_head" id="about">About</h2>
-		<h3 class="top-fold__about_title">
-			<span class="top-fold__about_title_highlight">Front End</span> Software Engineer
-		</h3>
+		<div class="top-fold__about_position">
+			<h2 class="top-fold__about_head" id="about">About</h2>
+			<h3 class="top-fold__about_title">
+				<span class="top-fold__about_title_highlight">Front End</span> Software Engineer
+			</h3>
+			<p class="top-fold__about_content">
+				Hello, I am <span class="top-fold__about_title_highlight">Izzatul Muttaqin</span>.
+			</p>
+			<p class="top-fold__about_content">
+				Currently working as Front End Software Engineer at <a
+					class="top-fold__about_title_highlight top-fold__about_content_href"
+					href="https://www.pinhome.id/pages/tentang-kami/">Pinhome</a
+				>
+			</p>
+		</div>
 	</div>
 </div>
 
@@ -16,8 +27,16 @@
 	}
 
 	.top-fold__about {
-		width: ca1c(100% - 16px);
-		padding: 32px;
+		min-height: 100vh;
+		position: relative;
+	}
+
+	.top-fold__about_position {
+		width: 80%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 	.top-fold__about_head {
@@ -26,6 +45,18 @@
 		line-height: 18px;
 		font-weight: 300;
 		color: var(--grey);
+	}
+
+	.top-fold__about_content_href {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.top-fold__about_content {
+		color: var(--white);
+		font-size: 18px;
+		line-height: 22px;
+		font-weight: 400;
 	}
 
 	.top-fold__about_title {
@@ -47,8 +78,10 @@
 		}
 
 		.top-fold__about {
-			width: 60%;
-			padding: 48px;
+			min-height: 0;
+			width: 60%; 
+			height: 100vh;
+			border-right: 1px solid var(--grey);
 		}
 
 		.top-fold__about_head {
@@ -61,6 +94,11 @@
 			line-height: 54px;
 			width: 50%;
 			margin: 25px 0;
+		}
+
+		.top-fold__about_content {
+			font-size: 32px;
+			line-height: 36px;
 		}
 	}
 </style>
