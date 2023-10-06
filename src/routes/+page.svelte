@@ -1,5 +1,7 @@
 <script>
 	import './styles.css';
+
+	import TopFold from '$lib/components/topfold/index.svelte';
 </script>
 
 <svelte:head>
@@ -14,8 +16,7 @@
 </svelte:head>
 
 <section class="home__container">
-	<h1>Welcome to SvelteKit</h1>
-	<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+	<svelte:component this={TopFold} />
 </section>
 
 <style>
