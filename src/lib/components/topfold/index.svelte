@@ -11,7 +11,7 @@
 			<p class="top-fold__about_content">
 				Currently working as Front End Software Engineer at <a
 					class="top-fold__about_title_highlight top-fold__about_content_href"
-					href="https://www.pinhome.id/pages/tentang-kami/">Pinhome</a
+					href="https://verihubs.com/" target="_blank">Verihubs</a
 				>
 			</p>
 		</div>
