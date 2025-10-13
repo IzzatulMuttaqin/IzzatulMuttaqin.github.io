@@ -2,6 +2,11 @@
 	import './styles.css';
 
 	import TopFold from '$lib/components/topfold/index.svelte';
+  import About from '../components/about.svelte';
+  import Contact from '../components/contact.svelte';
+  import Header from '../components/header.svelte';
+  import Hero from '../components/hero.svelte';
+  import Projects from '../components/projects.svelte';
 </script>
 
 <svelte:head>
@@ -16,14 +21,18 @@
 </svelte:head>
 
 <section class="home__container">
-	<svelte:component this={TopFold} />
+	<svelte:component this={Header} />
+  <svelte:component this={Hero} />
+  <svelte:component this={About} />
+  <svelte:component this={Projects} />
+  <svelte:component this={Contact} />
 </section>
 
 <style>
-    .home__container {
+    /* .home__container {
         position: relative;
         background: linear-gradient(165deg, rgba(31,31,31,1) 0%, rgba(62,61,61,1) 65%, rgba(75,75,75,1) 100%);
         min-width: 100%;
         min-height: 100vh;
-    }
+    } */
 </style>
