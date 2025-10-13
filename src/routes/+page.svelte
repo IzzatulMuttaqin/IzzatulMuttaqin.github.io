@@ -1,7 +1,5 @@
 <script>
 	import './styles.css';
-
-	import TopFold from '$lib/components/topfold/index.svelte';
   import About from '../components/about.svelte';
   import Contact from '../components/contact.svelte';
   import Header from '../components/header.svelte';
@@ -16,8 +14,7 @@
 		href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto&display=swap"
 		rel="stylesheet"
 	/>
-	<title>My Page</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Izzatul Muttaqin</title>
 </svelte:head>
 
 <section class="home__container">
